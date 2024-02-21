@@ -1,1 +1,1 @@
-# bangvito.github.io
+# bangvito.co.id
