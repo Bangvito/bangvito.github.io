@@ -1,57 +1,19 @@
-#body {
-  
-    margin: 0;
-    padding: 0;
-    background-color: black;
+body {
+    background-image: url(naruto-uzumaki-3840x2160-12705.jpg);
     background-size: cover;
     background-position: center;
     background-position: center;  
     min-height: 100vh;  
-    backdrop-filter: blur(20px);
-}
-
-#test {
-    text-align: center;
-    font-family: serif;
-    color: rgb(0, 248, 41);
-    letter-spacing: 2px;
-    font-size: 70px;
-    text-shadow: 5px 3px 25px rgb(43, 226, 67);
-    padding: 5px;
-    border: 2px rgb(0, 248, 41);
-    border-radius: 30px;
-}
-
-#b1 {
-    text-align: center;
-    font-weight: bold;
-}
-
-#ttt {
-    color: rgb(39, 190, 64);
-    text-align: center;
-    text-shadow: 10px 13px 30px blueviolet;
-    padding: 5px;
-    border: 2px rgb(0, 248, 41);
-    font-family: serif;
-    border-radius: 30px;
-}
-
-#all {
-    padding: 5px;
-    border: 5px solid rgb(0, 248, 41);
-    backdrop-filter: blur(20);
-    box-shadow: 0 0 10px rgb(0, 0, 0,-2);
-    font-family: serif;
-    border-radius: 10px;
-    
-
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'arial' , 'sans-serif';
 }
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
 }
 .logo {
@@ -67,7 +29,7 @@ ul {
 li {
     list-style: none;
     margin-left: 20px;
-    color: white;
+    
 }
 li a {
     text-decoration: none;
@@ -77,7 +39,7 @@ li a {
    transition: color 0.3s ease in-out;
 }
 li a:hover {
-    color: rgb(0, 248, 41);
+    color: yellow;
 }
 .container {
     width: 400px;
@@ -87,12 +49,22 @@ li a:hover {
     border-radius: 10px;
 }
 h1 {
-    color: rgb(0, 248, 215);
-    text-shadow: 10px 13px 30px #00FFF3;
-    border-radius: 30px;
-    text-align: center;
+    color: black;
+    
 }
 i {
     line-height: 20px;
-    color: rgb(0, 255, 255);
+    color: #ff0000;
+}
+
+#test {
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 2px solid darkgray;
+    width: 190px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'arial' , 'sans-serif';
+    background-color: rgba(0,0,0,0.5);
+    color: #00ffff;
 }
