@@ -1,0 +1,98 @@
+#body {
+  
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-position: center;  
+    min-height: 100vh;  
+    backdrop-filter: blur(20px);
+}
+
+#test {
+    text-align: center;
+    font-family: serif;
+    color: rgb(0, 248, 41);
+    letter-spacing: 2px;
+    font-size: 70px;
+    text-shadow: 5px 3px 25px rgb(43, 226, 67);
+    padding: 5px;
+    border: 2px rgb(0, 248, 41);
+    border-radius: 30px;
+}
+
+#b1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#ttt {
+    color: rgb(39, 190, 64);
+    text-align: center;
+    text-shadow: 10px 13px 30px blueviolet;
+    padding: 5px;
+    border: 2px rgb(0, 248, 41);
+    font-family: serif;
+    border-radius: 30px;
+}
+
+#all {
+    padding: 5px;
+    border: 5px solid rgb(0, 248, 41);
+    backdrop-filter: blur(20);
+    box-shadow: 0 0 10px rgb(0, 0, 0,-2);
+    font-family: serif;
+    border-radius: 10px;
+    
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+}
+.logo {
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+ul {
+    display: flex;
+    margin-left: 20px;
+}
+li {
+    list-style: none;
+    margin-left: 20px;
+    color: white;
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+   transition: color 0.3s ease in-out;
+}
+li a:hover {
+    color: rgb(0, 248, 41);
+}
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    color: rgb(0, 248, 215);
+    text-shadow: 10px 13px 30px #00FFF3;
+    border-radius: 30px;
+    text-align: center;
+}
+i {
+    line-height: 20px;
+    color: rgb(0, 255, 255);
+}
